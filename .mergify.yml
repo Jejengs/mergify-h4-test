@@ -1,6 +1,7 @@
 pull_request_rules:
-  - name: h4-probe
+  - name: h2-escalation-test
     conditions:
       - base=main
     actions:
-      update:
+      merge:
+        method: merge
